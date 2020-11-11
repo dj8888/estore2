@@ -15,7 +15,7 @@
   /* border: 1px solid #9ce7fc; */
 }
 
-.header__search {
+.header__spacer {
   display: flex;
   align-items: center;
   flex: 1;

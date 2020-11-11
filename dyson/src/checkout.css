@@ -1,13 +1,23 @@
 .checkout {
-display: flex;
-padding: 20px;
-background-color: white;
-height: max-content;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-color: white;
+  height: max-content;
+  max-width: 90%;
 }
 
-.checkout_title {
-margin-right: 10px;
-padding: 10px;
-border-bottom: 1px solid lightgray;
+.checkout__title {
+  margin-right: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #9ce7fc;
+}
 
+.checkout__banner {
+  object-fit: contain;
+  /* height: 220px; */
+  width: 100%;
+  margin-right: 10px;
 }

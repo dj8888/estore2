@@ -24,11 +24,11 @@ function Subtotal() {
             </small>
           </>
         )}
-        decimalScale={2}
+        decimalScale={0}
         value={getBasketTotal(basket)} // Part of the homework
         displayType={"text"}
         thousandSeparator={true}
-        prefix={"$"}
+        prefix={"₹"}
       />
 
       <button>Proceed to Checkout</button>

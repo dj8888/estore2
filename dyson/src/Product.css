@@ -26,7 +26,8 @@
 }
 
 .product > button {
-  font-size: 1.1em;
+  font-size: 1.2em;
+  padding: 2px 5px;
   background: #9ce7fc;
   border: 2px solid;
   margin-top: 10px;
