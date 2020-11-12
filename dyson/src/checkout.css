@@ -6,7 +6,11 @@
   padding: 20px;
   background-color: white;
   height: max-content;
-  max-width: 90%;
+  max-width: 80%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border: 1px solid #9ce7fc;
+  border-radius: 25px;
 }
 
 .checkout__title {

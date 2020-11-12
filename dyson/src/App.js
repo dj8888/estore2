@@ -7,6 +7,8 @@ import Login from "./Login";
 import { auth } from "./firebase";
 import { useStateValue } from "./StateProvider";
 import Checkout from "./Checkout";
+import Payment from "./Payment";
+import Congrats from "./Congrats.js";
 
 function App() {
   
@@ -50,6 +52,15 @@ return (
         <Route path="/Checkout">
           <Header />
           <Checkout/>
+        </Route>
+
+        <Route path="/payment">
+          <Header />
+          <Payment/>
+        </Route>
+
+        <Route path="/congrats">
+          <Congrats />
         </Route>
 
         <Route path="/">
